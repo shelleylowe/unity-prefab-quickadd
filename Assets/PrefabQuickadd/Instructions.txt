@@ -1,0 +1,9 @@
+Click Assets > Create > PrefabQuickadd Database Asset
+
+An PrefabQuickaddDatabase asset will be created in PrefabQuickadd/Databases
+
+In the database asset, add new entries to set up prefabs you want a menu item for. The names in the database entries can use a '/' to create submenus (e.g. UI/Button)
+
+Click "Generate Menu Items" in the inspector on a selected PrefabQuickaddDatabase. This creates a generated C# script that sets up all the menu items. Its also completely safe to delete if you have an outdated/incorrectly named script hanging around.
+
+Right-Click in the hierarchy or on a scene object, prefab shortcuts will appear under "Add Prefab"
