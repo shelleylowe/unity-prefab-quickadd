@@ -74,8 +74,8 @@ public class PrefabQuickaddDatabaseInspector : Editor
                     item.Prefab = (GameObject)EditorGUILayout.ObjectField(item.Prefab, typeof(GameObject), false);
                     GUILayout.EndVertical();
                 }
-                GUILayout.EndVertical();
                 EditorGUILayout.EndFadeGroup();
+                GUILayout.EndVertical();
                 if (GUILayout.Button("-", GUILayout.Width(22)))
                 {
                     database.Items.RemoveAt(i);
